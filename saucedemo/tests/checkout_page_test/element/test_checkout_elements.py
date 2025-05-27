@@ -1,8 +1,7 @@
 from saucedemo.pages.cart_page.cart_page import CartPage
-from saucedemo.pages.checkout_page.checkout_page import CheckoutPage, CheckoutPageLocators
+from saucedemo.pages.checkout_page.checkout_page import CheckoutPage
 from saucedemo.pages.inventory_page.inventory_page import InventoryPage
 from saucedemo.pages.login_page.login_page import LoginPage
-from playwright.sync_api import expect
 
 def test_checkout_elements(page):
     login_page = LoginPage(page)

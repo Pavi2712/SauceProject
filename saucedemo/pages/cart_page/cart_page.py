@@ -11,7 +11,6 @@ class CartPage:
     def proceed_to_checkout(self):
         self.page.click(CartPageLocators.CHECKOUT_BUTTON)
 
-
     def cart_items_exist(self):
         return self.page.locator(CartPageLocators.CART_ITEMS).count() > 0
     
