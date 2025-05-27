@@ -1,0 +1,3 @@
+LOGIN_URL = "https://www.saucedemo.com/v1/index.html"
+USERNAME = "standard_user"
+PASSWORD = "secret_sauce"
