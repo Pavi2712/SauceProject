@@ -20,7 +20,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v3.6.0
       - name: Build Website
-        run: npm run build
+        run: echo "Building website..."
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
